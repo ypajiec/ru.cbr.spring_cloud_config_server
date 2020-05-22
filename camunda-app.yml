@@ -18,11 +18,3 @@ camunda:
 org:
   camunda:
     optimize: debug
-
-engines:
-  cbr:
-    name: cbr
-    rest: http://localhost:8080/engine-rest
-    webapps:
-      endpoint: http://localhost:8080/camunda
-      enabled: true
