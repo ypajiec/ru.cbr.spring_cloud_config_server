@@ -1,3 +1,7 @@
 camundaApp:
   host: localhost
   port: 8080      
+
+endpoints:
+  restart:
+    enabled: true
