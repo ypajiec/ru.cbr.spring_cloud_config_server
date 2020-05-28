@@ -11,6 +11,6 @@ camunda:
 
 spring:
   datasource:
-    url: jdbc:h2:file:C:/Projects/camunda;
+    url: jdbc:h2:file:C:/Projects/camunda;DB_CLOSE_DELAY=-1;MVCC=TRUE;DB_CLOSE_ON_EXIT=FALSE
     username: sa
     password: 
