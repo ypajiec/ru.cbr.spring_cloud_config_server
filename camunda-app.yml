@@ -7,10 +7,10 @@ camunda:
     filter:
       create: All tasks
     database:
-      type: h2
+      type: mssql
 
 spring:
   datasource:
-    url: jdbc:h2:file:C:/Projects/camunda;DB_CLOSE_DELAY=-1;MVCC=TRUE;DB_CLOSE_ON_EXIT=FALSE
+    url: jdbc:sqlserver://localhost:1433;databaseName=camunda
     username: sa
-    password: 
+    password: sa
