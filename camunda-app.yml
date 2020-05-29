@@ -12,5 +12,5 @@ camunda:
 spring:
   datasource:
     url: jdbc:sqlserver://localhost:1433;databaseName=camunda
-    username: sa
-    password: sa
+    username: camunda
+    password: camunda
