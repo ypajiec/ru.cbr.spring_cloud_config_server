@@ -7,3 +7,6 @@ endpoints:
     enabled: true
 
 camel.xml.baseFileDir: C:\Projects\АС АКТИВЫ\feign-eureka-master\camelFiles\
+
+server:
+  port: 8081
